@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+<specVersion>
+<major>1</major>
+<minor>0</minor>
+</specVersion>
+<device>
+<deviceType>urn:schemas-upnp-org:device:InternetGatewayDevice:1</deviceType>
+<friendlyName>RT-AC66U</friendlyName>
+<manufacturer>ASUSTeK Computer Inc.</manufacturer>
+<manufacturerURL>http://www.asus.com/</manufacturerURL>
+<modelDescription>RT-AC66U</modelDescription>
+<modelName>RT-AC66U</modelName>
+<modelNumber>3.0.0.4.378</modelNumber>
+<modelURL>http://www.asus.com/</modelURL>
+<serialNumber>CAIAA2000001</serialNumber>
+<UDN>uuid:1ced4817-cbcc-48e7-a33c-b37a7f3d216d</UDN>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:Layer3Forwarding:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:Layer3Forwarding1</serviceId>
+<controlURL>/ctl/L3F</controlURL>
+<eventSubURL>/evt/L3F</eventSubURL>
+<SCPDURL>/L3F.xml</SCPDURL>
+</service>
+</serviceList>
+<deviceList>
+<device>
+<deviceType>urn:schemas-upnp-org:device:WANDevice:1</deviceType>
+<friendlyName>WANDevice</friendlyName>
+<manufacturer>MiniUPnP</manufacturer>
+<manufacturerURL>http://miniupnp.free.fr/</manufacturerURL>
+<modelDescription>WAN Device</modelDescription>
+<modelName>WAN Device</modelName>
+<modelNumber>20160128</modelNumber>
+<modelURL>http://miniupnp.free.fr/</modelURL>
+<serialNumber>CAIAA2000001</serialNumber>
+<UDN>uuid:1ced4817-cbcc-48e7-a33c-b37a7f3d216e</UDN>
+<UPC>000000000000</UPC>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:WANCommonIFC1</serviceId>
+<controlURL>/ctl/CmnIfCfg</controlURL>
+<eventSubURL>/evt/CmnIfCfg</eventSubURL>
+<SCPDURL>/WANCfg.xml</SCPDURL>
+</service>
+</serviceList>
+<deviceList>
+<device>
+<deviceType>urn:schemas-upnp-org:device:WANConnectionDevice:1</deviceType>
+<friendlyName>WANConnectionDevice</friendlyName>
+<manufacturer>MiniUPnP</manufacturer>
+<manufacturerURL>http://miniupnp.free.fr/</manufacturerURL>
+<modelDescription>MiniUPnP daemon</modelDescription>
+<modelName>MiniUPnPd</modelName>
+<modelNumber>20160128</modelNumber>
+<modelURL>http://miniupnp.free.fr/</modelURL>
+<serialNumber>CAIAA2000001</serialNumber>
+<UDN>uuid:1ced4817-cbcc-48e7-a33c-b37a7f3d216f</UDN>
+<UPC>000000000000</UPC>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:WANIPConnection:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:WANIPConn1</serviceId>
+<controlURL>/ctl/IPConn</controlURL>
+<eventSubURL>/evt/IPConn</eventSubURL>
+<SCPDURL>/WANIPCn.xml</SCPDURL>
+</service>
+</serviceList>
+</device>
+</deviceList>
+</device>
+</deviceList>
+<presentationURL>http://192.168.0.1</presentationURL>
+</device>
+</root>
